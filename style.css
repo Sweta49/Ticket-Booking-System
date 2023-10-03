@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the movie selection section */
+#movie-selection {
+    margin-bottom: 20px;
+}
+
+#movie-selection h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#movie-selection ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#movie-selection li {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 1;
+}
+
+#movie-selection img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#movie-selection h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#movie-selection p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#movie-selection button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the booking form section */
+#booking-form {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#booking-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#booking-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#booking-form input[type="text"],
+#booking-form input[type="email"],
+#booking-form input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#booking-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
